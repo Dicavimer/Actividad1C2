@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Realiza operaciones! :D</h1>
+    <div class="container">
+        <div class="contenido">
+            <label for="num1">Número 1</label>
+            <input type="text" id="num1">
+            <label for="num2">Número 2</label>
+            <input type="text" id="num2">
+        </div>
+        <br>
+        <div class="rbutton">
+            <form id="botones">
+                <input type="radio" id="suma" name="Operador" value="+"> Sumar
+                <input type="radio" id="resta" name="Operador" value="-"> Restar
+                <input type="radio" id="multipicacion" name="Operador" value="x"> Multiplicar
+                <input type="radio" id="division" name="Operador" value="/"> Dividir
+            </form>
+            <br>
+        </div>
+        <div class="btns">
+            <button type="button" id="calcular" name="Calcular" onclick="Calcular()">Calcular</button>
+            <button type="button" id="borrar" name="Borrar" onclick="Borrar()">Borrar</button>
+        </div>
+        <br>
+        <div class="result">
+            <h2 id="resultado"></h2>
+        </div>
+        <br>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

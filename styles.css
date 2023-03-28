@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+     background-image: url("https://www.newtonvirtual.com/aula/pluginfile.php/1168/course/overviewfiles/dise%C3%B1o-del-garabato-de-las-diversas-operaciones-de-la-matem%C3%A1ticas-47304621.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+h1{
+    color: blue;
+    text-align: center;
+
+}
+.container{
+    position: absolute;
+    top: 20;
+    background-color: rgba(95, 203, 222,0.5);
+    height:100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#borrar, #calcular{
+        background-color: #9958da; /* color de fondo */
+        border: none; /* sin borde */
+        color: white; /* color de texto */
+        padding: 15px 32px; /* espacio interior */
+        text-align: center; /* centrar el texto */
+        text-decoration: none; /* sin subrayado */
+        display: inline-block; /* mostrar como un bloque */
+        font-size: 16px; /* tamaño de fuente */
+        margin: 4px 2px; /* margen */
+        cursor: pointer; /* cambiar el cursor en hover */
+        border-radius: 8px; /* borde redondeado */
+      }
+      
+      #borrar{
+        background-color: #dc2556; 
+      }
+
+    
+
+
+      
