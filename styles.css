@@ -24,17 +24,17 @@ h1{
     flex-wrap: wrap;
 }
 #borrar, #calcular{
-        background-color: #9958da; /* color de fondo */
-        border: none; /* sin borde */
-        color: white; /* color de texto */
-        padding: 15px 32px; /* espacio interior */
-        text-align: center; /* centrar el texto */
-        text-decoration: none; /* sin subrayado */
-        display: inline-block; /* mostrar como un bloque */
-        font-size: 16px; /* tamaño de fuente */
-        margin: 4px 2px; /* margen */
-        cursor: pointer; /* cambiar el cursor en hover */
-        border-radius: 8px; /* borde redondeado */
+        background-color: #9958da; 
+        border: none; 
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none;
+        display: inline-block; 
+        font-size: 16px; 
+        margin: 4px 2px; 
+        cursor: pointer; 
+        border-radius: 8px; 
       }
       
       #borrar{
